@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -25,7 +26,6 @@
     "lint-:fix": "eslint . --fix",
     "format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
     "lint-staged": "lint-staged"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -51,13 +51,16 @@
     "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.33.2",
-    "eslint": "^8.22.0",
     "husky": "^8.0.3",
     "lint-staged": "^12.5.0",
+    "postcss-cli": "^11.0.0",
     "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.0",
     "typescript": "^4.9.5"
   }
 }
